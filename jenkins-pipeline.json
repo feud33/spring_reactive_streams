@@ -1,0 +1,57 @@
+{
+  "_class": "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+  "actions": [
+    {},
+    {},
+    {},
+    {
+      "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+    }
+  ],
+  "description": "",
+  "displayName": "EspaceArbitrage",
+  "displayNameOrNull": null,
+  "fullDisplayName": "EspaceArbitrage",
+  "fullName": "EspaceArbitrage",
+  "name": "EspaceArbitrage",
+  "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage/",
+  "healthReport": [],
+  "jobs": [
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name": "dev",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage/job/dev/",
+      "color": "red"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name": "feature%2Fdelet_activity_prohibited_when_not_WRITE_role",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage/job/feature%252Fdelet_activity_prohibited_when_not_WRITE_role/",
+      "color": "red"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name": "feature%2Fminor-fix",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage/job/feature%252Fminor-fix/",
+      "color": "red"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name": "master",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage/job/master/",
+      "color": "blue"
+    }
+  ],
+  "primaryView": {
+    "_class": "jenkins.branch.MultiBranchProjectViewHolder$ViewImpl",
+    "name": "default",
+    "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage/"
+  },
+  "views": [
+    {
+      "_class": "jenkins.branch.MultiBranchProjectViewHolder$ViewImpl",
+      "name": "default",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage/"
+    }
+  ]
+}

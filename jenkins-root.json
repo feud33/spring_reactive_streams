@@ -1,0 +1,52 @@
+{
+  "_class": "hudson.model.Hudson",
+  "assignedLabels": [
+    {
+      "name": "master"
+    }
+  ],
+  "mode": "NORMAL",
+  "nodeDescription": "the master Jenkins node",
+  "nodeName": "",
+  "numExecutors": 2,
+  "description": "Soat Team 2018",
+  "jobs": [
+    {
+      "_class": "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name": "EspaceArbitrage",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage/"
+    },
+    {
+      "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name": "EspaceArbitrage-Tag",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/job/EspaceArbitrage-Tag/",
+      "color": "red"
+    },
+    {
+      "_class": "hudson.model.FreeStyleProject",
+      "name": "test2",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/job/test2/",
+      "color": "blue"
+    }
+  ],
+  "overallLoad": {},
+  "primaryView": {
+    "_class": "hudson.model.AllView",
+    "name": "all",
+    "url": "https://jenkins-soat-dev.aws.fft.fr/"
+  },
+  "quietingDown": false,
+  "slaveAgentPort": 0,
+  "unlabeledLoad": {
+    "_class": "jenkins.model.UnlabeledLoadStatistics"
+  },
+  "useCrumbs": true,
+  "useSecurity": true,
+  "views": [
+    {
+      "_class": "hudson.model.AllView",
+      "name": "all",
+      "url": "https://jenkins-soat-dev.aws.fft.fr/"
+    }
+  ]
+}
